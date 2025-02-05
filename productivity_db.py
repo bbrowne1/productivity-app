@@ -9,7 +9,7 @@ import os
 DATABASE_PATH = 'tasks_schedule.db'
 
 def initialize_db():
-    conn = sqlite3.connect('C:\Users\bbrowne\Desktop\DEV\productivity app')  # Persistent database file
+    conn = sqlite3.connect('C:\Users\productivity app')  # Persistent database file
     cursor = conn.cursor()
     cursor.execute('''CREATE TABLE IF NOT EXISTS schedule (
                           task TEXT,
