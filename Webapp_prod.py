@@ -7,7 +7,7 @@ import random
 app = Flask(__name__)
 
 def load_tasks():
-    with open(r'C:\Users\bbrowne\Desktop\DEV\productivity app\tasks.json', 'r') as f:
+    with open(r'C:\Users\productivity app\tasks.json', 'r') as f:
         tasks = json.load(f)
     return tasks
 
