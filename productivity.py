@@ -5,7 +5,7 @@ from termcolor import cprint
 import random
 
 def load_tasks():
-    with open(r'C:\Users\bbrowne\Desktop\DEV\productivity app\tasks.json', 'r') as f:
+    with open(r'C:\Users\productivity app', 'r') as f:
         tasks = json.load(f)
     return tasks
 
