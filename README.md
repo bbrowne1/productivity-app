@@ -116,3 +116,4 @@ Bayo Browne
 ---
 
 Enjoy staying productive with the Productivity App! 🚀
+![Visitor Count](https://komarev.com/ghpvc/?username=bbrowne1&repo=productivity-app&color=blue)
